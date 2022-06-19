@@ -1,0 +1,270 @@
+:root {
+    --lightgreen: #678453;
+    --darkgreen: #5C754A;
+    --lightgrey: #F4F4F4;
+    --darkgrey: #E8E8E8;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    padding: 1.5em 0 1.5em 0;
+}
+
+header {
+    background-image: url(./fotky_RP/chata_2_velka_tmava.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+h1 .home {
+    color: var(--lightgrey);
+    text-align: center;
+}  
+
+h1 .home b {
+    color: white;
+}
+
+.name .logo {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-top: 8em;
+    width: 45vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.info {
+    background-color: var(--lightgrey);
+    margin: 0;
+}
+
+.info img {
+    width: 100%;
+    padding: 0;
+}
+
+.info .info__text p {
+    margin: 0;
+}
+
+h2 {
+    color: var(--darkgreen);
+    margin: 0;
+    padding: 0 20px .75em 20px;
+    font-weight: bold;
+    
+}
+
+.info h2, .info p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sluzby {
+    padding-bottom: .75em;
+}
+
+.sluzby p {
+    margin: 1em 0 0 0;
+    color: white;
+    font-size: 21px;
+}
+
+.sluzby__odkazy div {
+    background-size: cover;
+}
+
+.sluzby__odkazy .sluzby__strechy {
+    background-image: url(./fotky_RP/strecha_5_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__drevostavby {
+    background-image: url(./fotky_RP/nyvlt_1_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__mobilhouse {
+    background-image: url(./fotky_RP/domek_2_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__kce {
+    background-image: url(./fotky_RP/pergola_u_bazenu_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__vazniky {
+    background-image: url(./fotky_RP/vazniky_tmava.jpg);
+}
+
+.sluzby__odkazy .sluzby__beton {
+    background-image: url(./fotky_RP/nova_ves_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__mosty {
+    background-image: url(./fotky_RP/most_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__atypicke {
+    background-image: url(./fotky_RP/radnice_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__opravy {
+    background-image: url(./fotky_RP/chata_1_tmavy.jpg);
+}
+
+.sluzby__odkazy .sluzby__impregnace {
+    background-image: url(./fotky_RP/lahev_tmava.jpg);
+}
+
+.sluzby__odkazy .sluzby__strechy, .sluzby__drevostavby, .sluzby__mobilhouse, .sluzby__kce, .sluzby__vazniky, .sluzby__beton, .sluzby__mosty, .sluzby__atypicke, .sluzby__opravy, .sluzby__impregnace {
+    background-repeat: no-repeat;
+    background-position: center;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 0;
+    margin-bottom: 10px;
+}
+
+.fa-chevron-up:before, .fa-house:before, .fa-bridge:before, .fa-road-spikes:before, .fa-shop:before, .fa-pallet:before, .fa-caravan:before, .fa-angle:before, .fa-ruler-combined, .fa-hammer:before, .fa-spray-can:before {
+    font-size: 50px;
+    color: white;
+}
+
+
+h3 {
+    font-weight: bold;
+    color: var(--darkgreen);
+    margin: 0;
+    padding: 1.5em 20px 0 20px;
+}
+
+.button {
+    border: 2px solid var(--darkgreen);
+    border-radius: 25px;
+    background-color: white;
+    color: var(--darkgreen);
+    padding: .5em 1em;
+    margin-left: 20px;
+}
+
+.button > a {
+    color: var(--darkgreen);
+}
+
+.button:hover {
+    background-color: var(--darkgreen);
+    color: white;
+}
+
+.fotogalerie {
+    padding-bottom: .75em;
+    background-color: var(--lightgrey);
+}
+
+.fotogalerie .fotogalerie__photos {
+    padding-bottom: 2em;
+}
+
+
+.fotogalerie__photos > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fotogalerie-page {
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: 1fr;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.fotogalerie-page > img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: var(--darkgreen);
+}
+
+footer h2 {
+    color: white;
+    padding-bottom: 0;
+}
+
+footer p {
+    color: white;
+    
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.kontakt {
+    padding: 0 20px 0 20px;
+}
+
+.kontakt h2 {
+    padding-left: 0;
+}
+
+.kontakt .kontakt__text .fa-phone:hover, .kontakt .kontakt__text .fa-envelope:hover {
+    transition: transform ease-in-out .1s;
+    transform: scale(125%); 
+}
+
+.fa-phone:before {
+    margin-right: .5em;
+}
+
+.fa-envelope:before {
+    margin-right: .5em;
+}
+
+.kontakt .kontakt__text p:nth-child(3) {
+    padding-bottom: .5em;
+}
+
+.kontakt .fa-circle-chevron-up:before {
+    font-size: 25px;
+    color: white;
+}
+
+.kontakt .fa-circle-chevron-up:hover {
+    transition: transform ease-in-out .1s;
+    transform: scale(125%); 
+}
+
+
+
+
+
+
+

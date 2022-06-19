@@ -1,0 +1,284 @@
+@media screen and (max-width: 419px) {
+    .dodavatele-pc {
+        display: none;
+    }
+    
+    .dodavatele .dodavatele__jednotlivy {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .dodavatele .dodavatele__jednotlivy .dodavatele__logo {
+        height: 55px;
+    }
+
+    .glide__slide:nth-child(1) a > img{
+        width: 45%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 419px) {
+    .dodavatele {
+        display: none;
+    }
+
+    .dodavatele-pc .dodavatele__jednotlivy {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: .5em;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 20px;
+    }
+
+    .dodavatele-pc .dodavatele__jednotlivy .dodavatele__logo {
+        height: 33px;
+    }
+}
+
+@media screen and (min-width: 519px) {
+    .center {
+        width: 90%;
+        margin: auto;
+    }
+
+    .hamburger-nav {
+        width: 40%;
+    }
+
+    .name {
+        padding-top: 20px;
+    }
+
+    .name .logo {
+        width: 28vw;
+    }
+
+    h2 {
+        padding-left: 0;
+    }
+
+    .info h2, .info p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .button {
+        margin-left: 0;
+    }
+
+    .fotogalerie .fotogalerie__photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    .fotogalerie-page {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fotogalerie-page > img {
+        height: 180px;
+    }
+
+    .dodavatele-pc .dodavatele__jednotlivy {
+        margin-left: 0;
+    }
+
+    .kontakt {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 719px) {
+    .sluzby__uvod img {
+        display: none;
+    }
+
+    .info img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 719px) {
+    .center {
+        width: 90%;
+    }
+
+    .hamburger-nav {
+        width: 30%;
+    }
+
+    .name .logo {
+        width: 22vw;
+    }
+
+    .info > .center {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info .info__text {
+        max-width: 60%;
+    }
+
+    .info .info__text h2 {
+        padding-top: 0;
+    }
+
+    .info img {
+        width: 40vw;
+        padding: 0 0 0 3em;
+        object-fit: cover;
+    }
+
+    .button:hover {
+        color: white;
+    }
+    
+    .sluzby .sluzby__odkazy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .sluzby__odkazy div {
+        width: 100%;
+    }
+
+    .sluzby__odkazy .sluzby__strechy, .sluzby__drevostavby, .sluzby__mobilhouse, .sluzby__kce, .sluzby__vazniky, .sluzby__beton, .sluzby__mosty, .sluzby__atypicke, .sluzby__opravy, .sluzby__impregnace {
+        margin-bottom: 0%;
+    }
+
+    .button:hover {
+        color: white;
+    }
+
+    h3 {
+        padding: 0; 
+    }
+    
+    .fotogalerie .fotogalerie__photos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fotogalerie-page {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fotogalerie-page > img {
+        height: 120px;
+    }
+
+    .fotogalerie-page img:hover {
+        transition: transform ease-in-out .25s;
+        transform: scale(110%);
+        z-index: 1;
+    }
+
+    .dodavatele-pc .dodavatele__jednotlivy .dodavatele__logo {
+        height: 50px;
+    }
+
+    .kontakt {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .center {
+        width: 75%;
+    }
+
+    .name {
+        padding-top: 0;
+    }
+    
+    .name .logo {
+        bottom: -10px;
+        width: 15vw;
+        padding-top: 1em;
+    }
+
+    .kontakt .kontakt__text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kontakt .kontakt__text p {
+        padding-right: 3em;
+        margin-bottom: 0;
+    }
+
+    .kontakt .fa-circle-chevron-up {
+        padding-top: 1em;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .center {
+        width: 62%;
+    }
+
+    .info img, .sluzby img {
+        width: 25vw;
+    }
+
+    .fotogalerie .fotogalerie__photos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .fotogalerie-page {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .center {
+        width: 50%;
+    }
+    
+    .name .logo {
+        width: 10vw;
+    }
+
+    .sluzby__odkazy .sluzby__strechy, .sluzby__drevostavby, .sluzby__jine {
+        padding: 2.5em 0;
+    }
+}
+
+@media screen and (min-width: 1919px) {
+    .center {
+        width: 50%;
+    }
+
+    .name .logo {
+        width: 6vw;
+    }
+
+    .fotogalerie-page > img {
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .center {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 2800px) {
+    .center {
+        width: 30%;
+    }
+
+    .name .logo {
+        width: 4vw;
+    }
+}
